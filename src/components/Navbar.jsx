@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex items-center justify-between py-5 font-medium'>
+    <div className='mobile-menu-box flex items-center justify-between py-5 font-medium'>
 
         <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
         </ul>
 
-        <div className='flex items-center gap-6'>
+        <div className='mobile-menu-box flex items-center gap-6'>
             <div className='border w-full flex justify-center items-center relative'>
                 <input className="p-4 " placeholder="Search Here..." value={search} onChange={(e) => setSearch(e.target.value)} 
                 onKeyDown={(e) => {

@@ -15,6 +15,13 @@ a.active hr{
 ::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 570px){
+    .mobile-menu-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 @media (max-width: 640px){
     a.active{
         background-color: black;
